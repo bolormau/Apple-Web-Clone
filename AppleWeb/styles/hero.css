@@ -1,0 +1,240 @@
+/* HERO SECTION DEFAULT STYLES */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 692px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 405px;
+
+  text-align: center;
+  margin: 55px 757px;
+  gap: 20px;
+}
+
+.hero-content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+
+  color: rgba(0, 0, 0, 1);
+  font-size: 52px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+
+.hero-content-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 32px;
+
+  color: rgba(29, 29, 31, 1);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 250;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+@media only screen and (590px <= width <= 768px){
+  .hero-content {
+    margin: 58px 182px;
+    gap: 16px;
+  }
+
+  .hero-content-header {
+    font-size: 42px;
+    letter-spacing: 0px;
+  }
+
+  .hero-content-desc{
+    font-size: 22px;
+  }
+}
+
+.hero-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  
+  gap: none;
+}
+
+.hero-content-header-product-name { 
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+
+  font-size: 32px;
+  font-weight: 650;
+  line-height: normal;
+
+  gap: 8px;
+}
+
+/* BUTTONS */
+.buttons{
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+
+  width: 207px;
+  height: 44px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+
+  height: 44px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: -0.374px;
+
+  border-radius: 999px;
+}
+
+.solid-button {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+
+  background-color: rgba(0, 113, 227, 1);
+}
+
+.light-button {
+  color: rgba(41, 151, 255, 1);
+  text-align: center;
+
+  background-color: transparent;
+  border: solid;
+  border-color: rgba(0, 113, 227, 1);
+  border-width: 1px;
+}
+
+
+/* INDIVIDUAL HERO STYLES */
+
+/* Hero Section #1 */
+/* DEFAULT VER */
+.hero-section1 {
+  background-image: url("../../Images/iphone16pro.jpg");
+}
+
+.hero-section1 .hero-content *:not(.button) {
+  color: rgba(245, 245, 247, 1);
+}
+
+/* Hero Section #2 */
+.hero-section2 {
+  background-image: url("../../Images/iphone16.jpg");
+}
+
+.hero-section2 .hero-content * {
+  color: rgba(245, 245, 247, 1);
+}
+  
+.hero-section2 .solid-button {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hero-section2 .light-button {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+
+  background-color: transparent;
+  border: solid;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 1px;
+}
+
+/* Hero Section #3 */
+.hero-section3 {
+  background-image: url("../../Images/apple-logo-color.jpg"); 
+}
+
+.hero-section3 .hero-content {
+  margin-top: 446px;
+}
+
+.hero-section3 .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 114px;
+  height: 44px;
+}
+
+/* TABLET VER */
+@media only screen and (590px <= width <= 768px){
+  .hero-section{
+    height: 650px;
+  }
+  .hero-section1 {
+    background-image: url("../../Images/iphone16pro-tablet-ver.jpg");
+  }
+
+  .hero-section2 {
+    background-image: url("../../Images/iphone16-tablet-ver.jpg");
+  }
+
+  .hero-section3 {
+    display: none;
+  }
+
+
+
+
+
+}
+
+/* PHONE VER */
+@media only screen and (width <= 590px){
+  .hero-section1 {
+      background-image: url("../../Images/iphone16pro-phone-ver.jpg");
+  }
+
+  .hero-section2 {
+    background-image: url("../../Images/iphone16-phone-ver.jpg");
+  }
+
+  .hero-section3 {
+    display: none;
+  }
+
+
+  
+
+
+
+}

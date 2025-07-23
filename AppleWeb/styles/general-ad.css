@@ -1,0 +1,130 @@
+.ad-general {
+  display: flex;
+
+  width: 100%;
+  height: 292px;
+
+  position: relative;
+}
+
+.g-ad-posters {
+  display: flex;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 12px;
+}
+
+.play-the-gallery-button {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+
+  position: absolute;
+  top: 252px;
+  left: 1880px;
+  
+  border-radius: 12px;
+
+  background-color: rgba(210, 210, 215, 1);
+}
+
+.player-icon{
+  width: 12px;
+  height: 12px;
+}
+
+.g-ad-poster {
+  display: flex;
+
+  min-width: 417px;
+  height: 236px;
+
+  position: relative;
+}
+
+.g-poster-img {
+  display: flex;
+
+  width: 417px;
+  height: 236px;
+
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.g-poster-text {
+  display: flex;
+  align-items: center;
+
+  width: 223.7px;
+  height: 18px;
+
+  position: absolute;
+  top: 198px;
+  left: 15px;
+  
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.22px;
+  vertical-align: middle;
+}
+
+.g-poster2, .g-poster5 {
+  display: flex;
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.g-poster2 {
+  background-color: rgba(27, 38, 50, 1);
+}
+
+.g-poster5 {
+  background-color: rgba(235, 183, 153, 1);
+}
+
+.g-poster2-img, .g-poster5-img {
+  display: flex;
+
+  width: 196px;
+  height: 196px;
+
+  position: absolute;
+  top: 20px;
+  left: 15px;
+
+  border-radius: 8px;
+}
+
+.g-poster2 .g-poster-text, .g-poster5.g-poster-text{
+  display: flex;
+
+  width: 62px;
+  height: 18px;
+  
+  position: absolute;
+  top: 109px;
+  left: 226px;
+}
+
+.g-poster2-logo, .g-poster5-logo {
+  display: flex;
+  
+  width: 59px;
+  height: 13.92px;
+
+  position: absolute;
+  top: 199.08px;
+  left: 343px;
+}
+

@@ -1,0 +1,270 @@
+.sub-hero-section {
+  /* max-width: 942px; */
+  text-align: center;
+  gap: none;
+}
+
+.sub-hero-sections {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px
+}
+
+.sub-hero-section .hero-content-desc {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 250;
+  line-height: 25px;
+}
+
+/* SUB HERO SECTION #1 */
+.sub-hero-section1 {
+  display: flex;
+  align-items: center;
+
+  background-image: url("../../Images/ipad-air.jpg");
+}
+
+.sub-hero-section1 .sub-hero-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  width: 430px;
+  height: 33px;
+
+  margin-top: 58px;
+  margin-bottom: 9px;
+}
+
+.sub-hero-section1 .hero-content-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 322px;
+  height: 25px;
+
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+.sub-hero-section1 .buttons {
+  margin-bottom: 324px
+}
+
+.sub-hero-section1 .hero-content-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 169px;
+  height: 18px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  
+  background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 53px;
+}
+
+
+/* SUB HERO SECTION #2 */
+.sub-hero-section2 *:not(.button){
+  color: rgba(245, 245, 247, 1);
+}
+
+.sub-hero-section2 {
+  background-image: url("../../Images/airpods-pro2.jpg");
+}
+
+.sub-hero-section2 .hero-content-header {
+  width: 238px;
+  height: 44px;
+
+  font-size: 36px;
+  line-height: 44px;
+
+  margin-top: 401px;
+  margin-bottom: 2px;
+}
+
+.sub-hero-section2 .hero-content-desc {
+  width: 370px;
+  height: 25px;
+
+  margin-bottom: 10px;
+}
+
+.sub-hero-section2 .buttons {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+/* SUB HERO SECTION #3 */
+.sub-hero-section3 {
+  background-image: url("../../Images/iwatch-series10.jpg");
+}
+
+.sub-hero-section3 .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 322px;
+  flex-shrink: 0;
+
+  gap: 16px;
+}
+
+.sub-hero-section3 .hero-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  align-self: stretch;
+
+  gap: 4px;
+}
+
+.sub-hero-section3 .hero-content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 152px;
+  /* height: 146px; */
+  flex-shrink: 0;
+
+  gap: 4px;
+}
+
+.hero-content-header-logo {
+  width: 26.353px;
+  height: 32px;
+}
+
+.sub-hero-section3 .hero-content-header-text, .sub-hero-section5 .hero-content-header-text {
+  width: 121px;
+
+  font-size: 32px;
+  /* font-style: normal; */
+  font-weight: 650;
+  line-height: normal;  /* it's important when height is not adjusted. */
+}
+
+/*.sub-hero-section3*/ .hero-content-header-product-type {
+  align-self: stretch; /* no need to adjust width, height */
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sub-hero-section3 .hero-content-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+
+  height: 25px;
+}
+
+#series-no {
+  letter-spacing: 0px;
+}
+
+/* SUB HERO SECTION #4 */
+.sub-hero-section4 {
+  background-image: url("../../Images/macbook-air-m3.jpg");
+}
+
+.sub-hero-section4 .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 370px;
+
+  gap: 10px;
+}
+
+.sub-hero-section4 .hero-content-text {
+  width: 100%
+}
+
+.sub-hero-section4 .hero-content-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+
+  height: 44px;
+
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.sub-hero-section4 .hero-content-desc {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  align-self: stretch;
+  height: 25px;
+}
+
+/* SUB HERO SECTION #5 */
+.sub-hero-section5 {
+  background-image: url("../../Images/trade-in.jpg");
+}
+
+.sub-hero-section5 .hero-content {
+  width: 322px;
+  height: 146px;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.sub-hero-section5 .hero-content-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+}
+
+
+.sub-hero-section5 .hero-content-header {
+  align-self: stretch;
+  gap: 4px;
+}
+
+.sub-hero-section5 .hero-content-header-product-name {
+  display: flex;
+  align-items: center;
+  align-self: stretch;  
+  width: 152px;
+}
+
+/* remove one button */
+
+/* SUB HERO SECTION #6 */
+.sub-hero-section6 {
+  background-image: url("../../Images/apple-card.jpg");
+}
+
+/* .sub-hero-section6 .hero-content{
+
+} */

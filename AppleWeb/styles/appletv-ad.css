@@ -1,0 +1,98 @@
+.ad-appletv {
+  display: flex;
+
+  width: 100%;
+  height: 668px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;   
+  gap: 12px;
+}
+
+.ad-poster {
+  display: flex;
+
+  min-width: 1250px;
+  height: 668px;
+
+  position: relative;
+}
+
+.poster-img {
+  display: flex;
+
+  width: 1250px;
+  height: 668px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  scroll-snap-align: center;
+}
+
+.poster-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 566px;
+  left: 70px;
+
+  gap: 10px;
+}
+
+.stream-now-button {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 0%;
+
+  width: 133px;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.content-text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  letter-spacing: 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.movie-genre {
+  font-weight: 600;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.scroll-tablist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.scroll-tablist-item {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+body:has(#poster1:target) .scroll-tablist-item1 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+body:has(#poster2:target) .scroll-tablist-item2 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+body:has(#poster3:target) .scroll-tablist-item3 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
