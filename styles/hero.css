@@ -144,7 +144,7 @@
 /* Hero Section #1 */
 /* DEFAULT VER */
 .hero-section1 {
-  background-image: url("../../Images/iphone16pro.jpg");
+  background-image: url("../Images/iphone16pro.jpg");
 }
 
 .hero-section1 .hero-content *:not(.button) {
@@ -153,7 +153,7 @@
 
 /* Hero Section #2 */
 .hero-section2 {
-  background-image: url("../../Images/iphone16.jpg");
+  background-image: url("../Images/iphone16.jpg");
 }
 
 .hero-section2 .hero-content * {
@@ -179,7 +179,7 @@
 
 /* Hero Section #3 */
 .hero-section3 {
-  background-image: url("../../Images/apple-logo-color.jpg"); 
+  background-image: url("../Images/apple-logo-color.jpg"); 
 }
 
 .hero-section3 .hero-content {
@@ -201,11 +201,11 @@
     height: 650px;
   }
   .hero-section1 {
-    background-image: url("../../Images/iphone16pro-tablet-ver.jpg");
+    background-image: url("../Images/iphone16pro-tablet-ver.jpg");
   }
 
   .hero-section2 {
-    background-image: url("../../Images/iphone16-tablet-ver.jpg");
+    background-image: url("../Images/iphone16-tablet-ver.jpg");
   }
 
   .hero-section3 {
@@ -221,11 +221,11 @@
 /* PHONE VER */
 @media only screen and (width <= 590px){
   .hero-section1 {
-      background-image: url("../../Images/iphone16pro-phone-ver.jpg");
+      background-image: url("../Images/iphone16pro-phone-ver.jpg");
   }
 
   .hero-section2 {
-    background-image: url("../../Images/iphone16-phone-ver.jpg");
+    background-image: url("../Images/iphone16-phone-ver.jpg");
   }
 
   .hero-section3 {
